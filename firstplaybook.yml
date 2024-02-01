@@ -1,0 +1,13 @@
+---
+- host: all
+  become: yes
+  tasks:
+  - name: i want to inatll tree
+    apt: 
+     name: tree
+     status: present
+  - name: i want install apache
+    apt:
+     name: apache2
+     status: present
+    
