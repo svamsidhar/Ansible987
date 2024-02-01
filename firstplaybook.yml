@@ -13,5 +13,5 @@
   - name: Install the version '1.18.0' of package "nginx" and allow potential downgrades
     apt:
      name: nginx
-     state: absent
+     state: present
      
