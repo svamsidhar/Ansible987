@@ -14,4 +14,4 @@
     apt:
      name: nginx
      state: present
-     allow_downgrade: yes  s
+     
