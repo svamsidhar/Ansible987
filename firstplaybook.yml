@@ -5,9 +5,9 @@
   - name: i want to inatll tree
     apt: 
      name: tree
-     status: present
-  - name: i want install apache
+     state: present
+  - name: i want install apache2
     apt:
      name: apache2
-     status: present
+     state: present
     
