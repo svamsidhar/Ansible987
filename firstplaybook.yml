@@ -9,7 +9,7 @@
   - name: i want install apache2
     apt:
      name: apache2
-     state: present
+     state: absent
   - name: Install the version '1.18.0' of package "nginx" and allow potential downgrades
     apt:
      name: nginx
