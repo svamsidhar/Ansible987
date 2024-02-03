@@ -4,9 +4,9 @@
   gather_facts: yes
   tasks: 
   - name: i want to install webserver on RedHat 
-    yum:
-      name: httpd
-      state: present
+    ansible.builtin.yum:
+     name: httpd
+     state: latest
   
     
 
