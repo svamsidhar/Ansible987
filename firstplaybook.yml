@@ -3,27 +3,19 @@
   become: yes
   gather_facts: yes
   tasks: 
-  - name: i want to install apache2 webserver on ubuntu ansible nodes
-    apt:
-      name: apache2
-      state: present
-    
-
-  - name: i want to start apache2  webserver 
-    service: 
-      name: apache2
-      state: started
-    
-
-
   - name: i want to install webserver on RedHat 
     yum:
       name: httpd
       state: present
+  
     
 
-  - name: i want to start webserver on RedHat 
-    service:
-       name: httpd
-       state: started
+ 
+    
+
+
+  
+    
+
+  
     
