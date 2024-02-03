@@ -8,7 +8,7 @@
 
 - name: create a file
   file:
-   path: /home/ubuntu/kohli.txt
+   path: /home/ubuntu/kohli3.txt
    state: touch  
   tags: myfile
   when: ansible_os_family =="Debian" 
