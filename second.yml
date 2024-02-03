@@ -9,8 +9,8 @@
        dest: /home/ubuntu/my2ndfile
 
     - name: copy files
-      copyy:
-       src: kohli2.txt
+      copy:
+       srcc: kohli2.txt
        dest: /home/ubuntu/my2dfile
       ignore_errors: yes 
        
