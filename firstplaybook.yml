@@ -9,9 +9,26 @@
   - name: i want install apache2
     apt:
      name: apache2
-     state: absent
-  - name: Install the version '1.18.0' of package "nginx" and allow potential downgrades
-    apt:
-     name: nginx
      state: present
+    when: ansible_os_family=="Debian"
+
+  - name: i wnat to start apache2   
+    service:
+     name: apache2
+     state: started
+    when: ansible_os_family=="Debian" 
+
+  - name: i want to install wenserver on redhat
+    yum:
+     name: httpd
+     state: present
+    when: ansible_os_family=="Redhat"
+
+  - name: i wnat to start webserver on redhat
+    service:
+     name: httpd
+     state: started
+    when: ansible_os_family=="Redhat"
+     
+
      
