@@ -4,10 +4,18 @@
   gather_facts: yes
   tasks: 
   - name: i want to install webserver on RedHat 
-    ansible.builtin.yum:
-     name: nginx
+    yum:
+     name: "{{webpackonredhat}}"
      state: present
     when: ansible_os_family =="RedHat"
+  -  name: webserver on ubuntu
+     apt:
+      name: "{{webpackonubuntu}}"
+      state: present
+     when: ansible_os_family =="Debian" 
+
+   
+
     
 
  
