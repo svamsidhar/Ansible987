@@ -5,8 +5,8 @@
   tasks: 
   - name: i want to install webserver on RedHat 
     ansible.builtin.yum:
-     name: httpd
-     state: latest
+     name: nginx
+     state: present
   
     
 
