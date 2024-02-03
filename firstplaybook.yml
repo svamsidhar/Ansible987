@@ -12,7 +12,13 @@
      apt:
       name: "{{webpackonubuntu}}"
       state: present
-     when: ansible_os_family =="Debian" 
+     when: ansible_os_family =="Debian"
+  -  name: webserver on ubuntu
+     apt:
+      name: "{{Npackonubuntu}}"
+      state: present
+     when: ansible_os_family =="Debian"   
+     
 
    
 
