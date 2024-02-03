@@ -19,10 +19,11 @@
       state: present
      when: ansible_os_family =="Debian" 
   - name: install git
-    apt:
+    yum:
       name: git
       state: present
-    tags: mygit     
+    tags: mygit  
+    when: ansible_os_family =="RedHat"   
      
 
    
