@@ -17,7 +17,12 @@
      apt:
       name: "{{Npackonubuntu}}"
       state: present
-     when: ansible_os_family =="Debian"   
+     when: ansible_os_family =="Debian" 
+  - name: install git
+    apt:
+      name: git
+      state: present
+    tags: mygit     
      
 
    
