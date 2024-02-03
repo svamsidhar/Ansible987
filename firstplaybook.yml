@@ -6,6 +6,8 @@
     apt: 
      name: tree
      state: present
+    when: ansible_os_family=="Debian"
+
   - name: i want install apache2
     apt:
      name: apache2
