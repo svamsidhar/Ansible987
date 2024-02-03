@@ -1,2 +1,2 @@
 ---
-javapackonredhat: openjdk-11-jre 
+javapackonredhat: java-11-openjdk 
