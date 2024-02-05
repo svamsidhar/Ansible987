@@ -8,7 +8,7 @@
      dest: /var/www/html/index.html
     notify: to restart the service
 
-- handlers: 
+  handlers: 
     - name: to restart the service
       service:
         name: apache2
