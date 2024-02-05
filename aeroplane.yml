@@ -6,9 +6,9 @@
     template:
      src: myindex.j2
      dest: /var/www/html/index.html
-     
-  - name: Geturl
+
+  - name: ggggig
     get_url:
      url: https://maha22aug22.s3.us-east-2.amazonaws.com/mahaLogin.war
      dest: home/ubuntu/mahaLogin.war
-    force_basic_auth: yes
+     force_basic_auth: yes
