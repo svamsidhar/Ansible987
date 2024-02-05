@@ -9,6 +9,6 @@
 
   - name: ggggig
     get_url:
-     url: https://chat.openai.com/c/79ef25bf-4949-4ccd-a6dc-10afffcb8920
+     url: hhttps://aeroplane987.s3.amazonaws.com/ubuntu2.txt
      dest: home/ubuntu/mahaLogin.war
      force_basic_auth: yes
