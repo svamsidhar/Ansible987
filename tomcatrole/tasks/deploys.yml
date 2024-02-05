@@ -1,0 +1,8 @@
+
+---
+ -  name: deploy java application  on prod servers
+    get_url:
+      url: https://gameoflife-war-file.s3.amazonaws.com/gameoflife.war
+      dest: /opt/tomcat/webapps/
+      force_basic_auth: yes
+  
