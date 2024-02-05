@@ -1,0 +1,7 @@
+---
+- hosts: 172.31.88.57
+  become: yes
+  tasks: 
+   template:
+     src: index.j2
+     dest: /var/www/html/index.html
