@@ -2,6 +2,7 @@
 - hosts: 172.31.88.57
   become: yes
   tasks: 
+  -name: template practice
    template:
      src: myindex.j2
      dest: /var/www/html/index.html
