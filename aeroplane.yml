@@ -9,6 +9,6 @@
 
   - name: ggggig
     get_url:
-     url: hhttps://aeroplane987.s3.amazonaws.com/ubuntu2.txt
+     url: https://aeroplane987.s3.amazonaws.com/ubuntu2.txt
      dest: home/ubuntu/ubuntu2.txt
      force_basic_auth: yes
