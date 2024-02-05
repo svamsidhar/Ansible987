@@ -6,9 +6,10 @@
     template:
      src: myindex.j2
      dest: /var/www/html/index.html
+    notify: to restart the service
 
-  - name: ggggig
-    get_url:
-     url: https://aeroplane987.s3.amazonaws.com/ubuntu2.txt
-     dest: /home/ubuntu/ubuntu2.txt
-     force_basic_auth: yes
+- handlers: 
+    - name: to restart the service
+      service:
+        name: apache2
+        state: restarted
