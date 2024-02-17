@@ -1,0 +1,56 @@
+17 - AUG - Terraform
+22 - AUG - Linux
+27 - AUG - Ansible
+16 - SEP - Docker
+28 - sep - kubernetes
+11 - oct - CICD(jenkins)(GIT)
+01 - oct - vagrant
+03 - Nov - chef
+
+---------------------------------
+22 - AUG - linux started
+23 - AUG - basic commands and home,root directory
+24 - Aug - other directory and filter commands
+25 - Aug - file permissions
+26 - Aug - connect from one server to another without pem and password
+
+27 - Aug - Ansible introduction
+29 - Aug - ansible architechture
+30 - Aug - Yaml Structure and playbook
+01 - Sep - playbook and github
+02 - Sep - ansible facts and conditions
+03 - Sep - Ansible inventoties 
+06 - Sep - Group variables
+07 - Sep - Host Variables
+08 - Sep - Tags,error handling,file creation and copying
+09 - Sep - Templates,handlers and download
+12 - Sep - Roles intro and apache tomcat installation manually 
+13 - Sep - Installation apache tomcat through Ansible
+14 - Sep - Installation apache tomcat through Ansible 
+15 - Sep - Ansiblenodes and Dynamic inventory
+
+16 - Sep - ansible vault and Docker introduction
+17 - Sep - Docker installation and container creation
+19 - Sep - Docker run command
+20 - Sep - docker modes
+21 - Sep - how container works and port forwarding 
+22 - Sep - Docker file 
+23 - Sep - Docker image and volume
+26 - Sep - Volumes and networks 
+27 - Sep - Cgroups
+
+28 - Sep - Kubernetes introduction
+29 - Sep - Kubernetes installation 
+30 - Sep - kubernetes replication controller
+01 - Oct - Service and Labels
+03 - Oct - service with 2 versions and deployment intro
+07 - Oct - deployment
+08 - Oct - deployment java app from scratch
+10 - Oct - Kops 
+11 - Oct - SDLC
+12 - Oct - Req-Sprint-Release-Scrum
+13 - Oct - Git 
+14 - Oct - Git Branches
+17 - Oct - Git rebase and revert commands
+18 - oct - Git revert commands and fast forwarding
+19 - Oct - Maven Intro
